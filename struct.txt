@@ -1,0 +1,29 @@
+{
+	"email": "admin@admin.com",
+	"password": "admin3010"
+}
+
+
+{
+	"body": "body 3"
+}
+
+{
+	"email" : "dummy@dummy.com",
+	"password" : "dummy3010"
+}
+
+{
+	"email": "admin@admin.com",
+	"password": "admin3010",
+	"confirmPassword": "admin3010",
+	"handle": "admin"
+}
+
+
+{
+	"email" : "dummy@dummy.com",
+	"password" : "dummy3010",
+	"confirmPassword": "dummy3010",
+	"handle": "dummy"
+}
