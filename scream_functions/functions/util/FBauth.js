@@ -24,10 +24,11 @@ module.exports = (req, res, next) => {
     })
     .then(data => {
         req.user.handle = data.docs[0].data().handle;
+        req.user.imgUrl = data.docs[0].data().imgUrl;
         next()
     })
     .catch(err => {
-        console.log(err)
+        console.error(err)
         res.status(403).json({
             success: false,
             message: 'could not verify token',
